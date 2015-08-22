@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<!-- <ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:a4j="http://richfaces.org/a4j"
+      xmlns:rich="http://richfaces.org/rich"> -->
+      
+<head>hello</head>
+
+
+<body>
+
+<h:form>
+<h:inputText value="#{helloBeanId.named}"></h:inputText>
+<h:selectOneMenu value="#{helloBeanId.beanName}">
+   	<f:selectItems value="#{helloBeanId.hibean.coffee}" />
+   	
+</h:selectOneMenu>
+<h:inputText value="#{helloBeanId.beanName}"></h:inputText>
+
+<h:dataTable value="#{helloBeanId.employees}" var="emp"
+   styleClass="employeeTable"
+   headerClass="employeeTableHeader"
+   rowClasses="employeeTableOddRow,employeeTableEvenRow" border="1">
+   <h:column>    				
+      <f:facet name="header">Name</f:facet>    				
+      #{helloBeanId.named}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Department</f:facet>
+      #{emp.department}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Age</f:facet>
+      #{emp.age}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Salary</f:facet>
+      #{emp.Salary}
+   </h:column>
+</h:dataTable>
+
+<<!-- rich:dataTable value="#{helloBeanId.usalist}" var="lst" rows="5">
+<f:facet name="caption">
+<h:outputText value="United States Capitals" />
+</f:facet>
+<f:facet name="header">
+<h:outputText value="Capitals and States Table" />
+</f:facet>
+<rich:column>
+<f:facet name="header">State Flag</f:facet>
+<h:graphicImage value="#{lst.flag}"/>
+<f:facet name="footer">State Flag</f:facet>
+</rich:column>
+<rich:column>
+<f:facet name="header">State Name</f:facet>
+<h:outputText value="#{lst.state}"/>
+<f:facet name="footer">State Name</f:facet>
+</rich:column>
+<rich:column >
+<f:facet name="header">State Capital</f:facet>
+<h:outputText value="#{lst.name}"/>
+<f:facet name="footer">State Capital</f:facet>
+</rich:column>
+<rich:column>
+<f:facet name="header">Time Zone</f:facet>
+<h:outputText value="#{lst.timeZone}"/>
+<f:facet name="footer">Time Zone</f:facet>
+</rich:column>
+<f:facet name="footer">
+<h:outputText value="Capitals and States Table" />
+</f:facet>
+</rich:dataTable> -->
+
+
+<h:commandButton value ="Welcome" action= "welcome">
+</h:commandButton>
+</h:form>
+</body>
+</html>
