@@ -5,6 +5,7 @@ public class hiBean
 	String name = "vireshdevthakurab";
 	String rollno = "2154";
 	String job="engg";
+	String Fname = "Mr";
 
 	public String getName() {
 		return name;
