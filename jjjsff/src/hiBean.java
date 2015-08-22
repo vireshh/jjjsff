@@ -7,6 +7,7 @@ public class hiBean
 	String job="engg";
 	String Fname = "Mr";
 	String pname = "efce";
+	String gname = "automate";
 	
 	public String getName() {
 		return name;
