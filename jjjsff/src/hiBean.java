@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class hiBean
 {
-	String name = "vireshdevthakurabcdef";
+	String name = "vireshdevthakurab";
 
 	public String getName() {
 		return name;
