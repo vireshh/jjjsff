@@ -3,6 +3,7 @@ import java.util.HashMap;
 public class hiBean
 {
 	String name = "vireshdevthakurab";
+	String rollno = "2154";
 
 	public String getName() {
 		return name;
