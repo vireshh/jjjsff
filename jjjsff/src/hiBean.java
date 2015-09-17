@@ -36,5 +36,9 @@ public class hiBean
 		System.out.println("This is the check out");
 	}
 	
+	public void madeIt()
+	{
+		System.out.println("you have made it");
+	}
 	
 }
