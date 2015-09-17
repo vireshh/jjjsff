@@ -31,5 +31,10 @@ public class hiBean
 		return coffee;
 	}
 	
+	public void takeOff()
+	{
+		System.out.println("This is the check out");
+	}
+	
 	
 }
