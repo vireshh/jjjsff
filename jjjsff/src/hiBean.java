@@ -25,6 +25,7 @@ public class hiBean
 		coffee.put(123, "Cappiccuno");
 		coffee.put(456,"ice tea");
 		coffee.put(789, "green tea");
+		System.out.println("check the credit score");
 		return coffee;
 	}
 	
