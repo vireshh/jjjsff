@@ -31,6 +31,7 @@ public class hiBean
 		System.out.println("the new changes at 1222");
 		System.out.println("some value");
 		System.out.println("some value change for newmaster");
+		System.out.println("some value second change for newmaster");
 		return coffee;
 	}
 	
