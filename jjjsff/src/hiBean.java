@@ -32,6 +32,7 @@ public class hiBean
 		System.out.println("some value");
 		System.out.println("some value change for newmaster");
 		System.out.println("some value second change for newmaster");
+		System.out.println("some value three change for newmaster");
 		System.out.println("for master");
 		return coffee;
 	}
