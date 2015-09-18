@@ -28,6 +28,7 @@ public class hiBean
 		System.out.println("check the credit score");
 		System.out.println("this will be second coffee check");
 		System.out.println("this will be second tea check");
+		System.out.println("some value");
 		return coffee;
 	}
 	
