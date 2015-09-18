@@ -29,6 +29,8 @@ public class hiBean
 		System.out.println("this will be second coffee check");
 		System.out.println("this will be second tea check");
 		System.out.println("the new changes at 1222");
+		System.out.println("some value");
+		System.out.println("some value change for newmaster");
 		return coffee;
 	}
 	
