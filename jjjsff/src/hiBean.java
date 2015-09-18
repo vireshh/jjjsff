@@ -30,6 +30,7 @@ public class hiBean
 		System.out.println("this will be second tea check");
 		System.out.println("some value");
 		System.out.println("some value change for newmaster");
+		System.out.println("some value second change for newmaster");
 		return coffee;
 	}
 	
