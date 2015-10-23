@@ -7,4 +7,8 @@ public class NewCl {
 		System.out.println("first change");
 	}
 
+	public void tell()
+	{
+		System.out.println("this is newer change");
+	}
 }
