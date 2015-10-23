@@ -22,4 +22,9 @@ public class NewCl5 {
 	{
 		System.out.println("this is the third change");
 	}
+	
+	public void changesix()
+	{
+		System.out.println("this is change number six");
+	}
 }
