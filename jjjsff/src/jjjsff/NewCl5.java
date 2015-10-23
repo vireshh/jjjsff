@@ -17,4 +17,9 @@ public class NewCl5 {
 	{
 		System.out.println("this is the secondddd change");
 	}
+	
+	public void thirdChange()
+	{
+		System.out.println("this is the third change");
+	}
 }
