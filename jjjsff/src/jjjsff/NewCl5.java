@@ -12,4 +12,9 @@ public class NewCl5 {
 	{
 		System.out.println("this has not to be seen");
 	}
+	
+	public void check()
+	{
+		System.out.println("this is the secondddd change");
+	}
 }
