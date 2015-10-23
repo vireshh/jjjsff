@@ -8,4 +8,8 @@ public class NewCl5 {
 	}
 			
 
+	public void sewe()
+	{
+		System.out.println("this has not to be seen");
+	}
 }
